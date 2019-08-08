@@ -5,7 +5,7 @@ from textblob import TextBlob
 from textblob import Word
 
 
-# define Flask app that does all the magic
+# define Flask app
 app = Flask(__name__)
 
 
