@@ -16,6 +16,7 @@ def spellCorrect():
     words = {}
     for word in text.split():
         words[word] = Word(word).spellcheck()
+        #Spelling correction is based on Peter Norvig’s “How to Write a Spelling Corrector”[1] as implemented in the pattern library.
     return jsonify(**words)
 
 
